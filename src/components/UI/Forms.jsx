@@ -4,7 +4,8 @@ function Forms () {
       <div className="form-section">
       <input placeholder="Name"></input>
       <input placeholder="Phone Number"></input>
-      <input placeholder="Message"></input>
+      <input id="message-input" placeholder="Message"></input>
+      <button className="submitBtn">Submit</button>
     </div>
     </div>
 
