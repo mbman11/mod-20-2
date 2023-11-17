@@ -1,7 +1,7 @@
 
 function Heading () {
   return (
-    <div className="heading">jhsdfakj</div>
+    <div className="heading"></div>
   )
  }
 

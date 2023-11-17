@@ -1,7 +1,15 @@
 import Heading from "../UI/Heading";
 import Footer from "../UI/Footer";
-import image from "../../images/ProfilePic.jpeg"
+// import Img from "/images/ProfilePic.jpeg"
 
+
+// export function Img() {
+//   return (
+//     // <div id="profile-img">
+//     // </div>
+//     <img ></img>
+//   )
+// }
 
 export default function About() {
   return (
@@ -10,7 +18,7 @@ export default function About() {
       <Heading />
 
       <div className='about-section'>
-        <img src={image}></img>
+        <img src="/images/ProfilePic.png"></img>
         <p>
           I am a coder. Thats me. I do this.
         </p>
